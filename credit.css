@@ -227,7 +227,7 @@ body{
 }
 
 
- .sct-title{
+.sct-title{
         font-family:var(--main-font);
         font-size:5rem;
         letter-spacing:3px;
@@ -333,7 +333,7 @@ body{
     align-items: center;
 }
 
- .header-1{
+.header-1{
     background-color:#183766;
 }
 
@@ -416,7 +416,7 @@ footer{
     align-items:center;
 }
 
- .sct-4 .faq a{
+.sct-4 .faq a{
     color:var(--text);  
     letter-spacing:2px;
     font-size:1.2rem;
@@ -514,6 +514,11 @@ footer{
 
 @media only screen and (max-width:414px){
     /*copy and paste************/
+    .sct-3{
+        display:none;
+    }
+    
+    
     body{
         overflow-x:hidden;
     }
@@ -563,7 +568,7 @@ footer{
         line-height:3rem;
     }
 
-   
+
 
     .heading p{
         font-size:1rem;
@@ -603,9 +608,20 @@ footer{
 
     .grid-wrapper-1{
         grid-template-columns:repeat(1, 4fr);
-        padding:0;
-        padding-bottom:80px;
+        padding: 0 0 80px 0;
     }
+
+    .grid-wrapper-1 p{
+        width:80%;
+        margin:0 auto;
+        padding-bottom:50px;
+    }
+
+    .grid-item-2,
+    .grid-item-3{
+        display:none;
+    }
+
 
 
     /*End of copy and paste*/
