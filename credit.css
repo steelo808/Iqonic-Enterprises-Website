@@ -79,10 +79,10 @@ body{
 }
 
 .jumbotron{
-   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/credithome.jpg);
-   background-size:cover;
-   background-position: center;
-   height:100vh;
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/credithome.jpg);
+background-size:cover;
+background-position: center;
+height:100vh;
 }
 
 .logo{
@@ -293,6 +293,10 @@ body{
     margin-right:10px;
 }
 /*SECTION 4*/
+
+.slider{
+    display:none;
+}
 
 .fa-check{
     color:green;
@@ -552,6 +556,9 @@ footer{
         height:auto;
     }
 
+    .sct-2{
+        height:100vh;
+    }
     .heading{
         padding:0;
         top:50%;
@@ -622,7 +629,43 @@ footer{
         display:none;
     }
 
+    .sct-4-grid-wrapper{
+        text-align:center;
+        padding-top:20px;
+        display:block;
+        margin:0;
+    }
 
+    .slider{
+        display:block;
+        background-color:var(--accent);
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:10px;
+        border-radius:40px;
+    }
+
+    .slider-item{
+        background-color:#0b4a92 ;
+        padding:15px;
+        border-radius:40px;
+        box-shadow: 2px 5px 25px #000;
+    }
+
+
+    .sct-4{
+        padding-top:50rem;
+    }
+
+    .sct-4-grid-item{
+        border-radius:50px;
+    }
+
+    .content{
+        margin-bottom: 0;
+        padding-bottom:30px;
+    }
 
     /*End of copy and paste*/
 }
