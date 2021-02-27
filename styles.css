@@ -339,7 +339,7 @@ h1{
     font-family: var(--main-font);
 }
 
- .ctb span{
+.ctb span{
     font-family:var(--main-font);
     font-size:1.2rem;
 }
@@ -352,7 +352,6 @@ h1{
 .grid-wrapper{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
 }
 
 .grid-item .grid-item-text{
@@ -365,7 +364,7 @@ h1{
 .sct-2-5{
     height:100vh;
 }
- .heading2-5{
+.heading2-5{
     font-size:4.8rem;
     text-align:center;
     padding-top:80px;
@@ -377,7 +376,7 @@ h1{
     padding:50px;
 }
 
- .grid-item img{
+.grid-item img{
     width:80%;
     height:100%;
 }
@@ -388,7 +387,7 @@ h1{
     font-size:3rem;
 }
 
- .grid-item .author{
+.grid-item .author{
     font-size:1rem;
     font-family:var(--secondary-font);
 }
@@ -433,7 +432,7 @@ margin:10px;
 }
 
 .sct-3-btn{
-   text-align:center;
+    text-align:center;
 }
 
 .sct-3 .grid-container{
@@ -449,9 +448,13 @@ grid-template-rows: repeat(5, 1fr);
 
 }
 
- .arrow i{
+.arrow{
+    height:30px;
+}
+
+.arrow i{
     color:var(--text);
-    padding:0;
+
 }
 
 

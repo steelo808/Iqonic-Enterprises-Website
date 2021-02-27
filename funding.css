@@ -192,7 +192,7 @@ h1{
     font-size:3rem;
     letter-spacing:2px;
 }
- 
+
 .sub-heading{
     font-size:2.5rem;
     letter-spacing:4px;
@@ -209,8 +209,8 @@ h1{
     font-family:var(--main-font);
     letter-spacing:1px;
 }
- 
- .empha li em{
+
+.empha li em{
     font-family:var(--secondary-font);
     font-size:1.2rem;
 }
@@ -222,7 +222,6 @@ h1{
 
 .sct-3{
     height:auto;
-    padding:60px
 }
 
 .sct-3 .container{
@@ -262,7 +261,7 @@ footer{
     align-items:center;
 }
 
- .sct-4 .faq a{
+.sct-4 .faq a{
     color:var(--text);  
     letter-spacing:2px;
     font-size:1.2rem;
