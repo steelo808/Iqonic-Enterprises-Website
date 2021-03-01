@@ -94,3 +94,8 @@ during the credit repair process we provide education to improve, maintain, and 
             credit repair 
             build your credit 
             aquire asses
+
+
+
+        Because of Iconic Enterprises I was pre approved for 30 to 40k in funding in just the first week!
+
