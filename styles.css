@@ -362,8 +362,12 @@ h1{
 /*SECTION 2.5 */
 .sct-2-5{
     height:auto;
+    padding-bottom:50px;
 }
 
+.gumroad-button{
+    cursor:pointer;
+}
 
 .heading2-5{
     font-size:4.8rem;
@@ -375,11 +379,13 @@ h1{
     display:grid;
     grid-template-columns: repeat(2,2fr);
     padding:50px;
+    gap:20px;
 }
 
 .grid-item img{
     width:100%;
     height:100%;
+    padding-bottom:30px;
 }
 
 
