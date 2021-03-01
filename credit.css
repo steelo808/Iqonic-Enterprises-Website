@@ -237,11 +237,12 @@ height:100vh;
         margin-bottom:50px;
     }
     
+
 .grid-wrapper-1{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/products1.jpg);
-    background-size:cover;
-    background-position: center;
-    background-repeat:no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-repeat:no-repeat;
     display:grid;
     grid-template-columns:repeat(4,1fr);
     text-align: center;
@@ -653,6 +654,9 @@ footer{
         box-shadow: 2px 5px 25px #000;
     }
 
+    .pricing{
+        padding-bottom:60px;
+    }
 
     .sct-4{
         padding-top:30rem;

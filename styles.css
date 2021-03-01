@@ -52,7 +52,7 @@ body{
     color:var(--text);
     text-decoration:none;
     font-size:1.1rem;
-    font-family:var(--secondary-font);
+    font-family:var(--main-font);
     padding:0;
     line-height:5rem;
     
@@ -652,7 +652,7 @@ footer{
     }
 
     .secondary-nav ul li a {
-        font-size:1rem;
+        font-size:1.5rem;
         text-align:center;
     }
 
@@ -723,7 +723,7 @@ footer{
             padding:0;
         }
 
-      .sct-2-5 .grid-container{
+    .sct-2-5 .grid-container{
         display: grid;
         grid-template-columns: repeat(1,2fr);
     }
