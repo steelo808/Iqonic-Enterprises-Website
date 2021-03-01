@@ -88,3 +88,9 @@ during the credit repair process we provide education to improve, maintain, and 
                 Ensure your business is fundable and credible
             </h1>
             <p><em>We give you the resources to establish a proper business</em></p>
+
+
+            establish your buisness 
+            credit repair 
+            build your credit 
+            aquire asses

@@ -311,7 +311,7 @@ height:100vh;
 }
 
 .sct-4 .sct-title{
-    padding-top:20rem;
+    padding-top:16rem;
 }
 
 .sct-4-grid-wrapper{
@@ -651,7 +651,7 @@ footer{
         border-radius:40px;
     }
 
-    .slider-item{
+    .slider-item-active{
         background-color:#0b4a92 ;
         padding:15px;
         border-radius:40px;
