@@ -677,4 +677,22 @@ footer{
     }
 
     /*End of copy and paste*/
+
+    /* copy amd paste*************/
+    .footer-btm{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .ftr-nav {
+        display:none;
+    }
+    
+    .footer-btm .copyright p{
+        font-size:0.8rem;
+        padding:0;
+    }
+
+    /* End of copy and paste ******/
 }
