@@ -20,6 +20,9 @@ i{
     padding:0;
     margin:0;
 }
+html{
+    overflow-x: hidden;
+}
 
 body{
     list-style: none;
@@ -312,6 +315,7 @@ h1{
     text-align: center;
     font-family:var(--secondary-font);
     letter-spacing:3px;
+    margin:0 10px 0 10px;
 }
 
 .gi1{
@@ -350,37 +354,8 @@ h1{
     border-radius:5px;
 }
 
-@media screen and (max-width: 560px) {
-.more-icon-preocess.process-model li span {
-        font-size: 23px;
-        height: 50px;
-        line-height: 46px;
-        width: 50px;
-    }
-    .more-icon-preocess.process-model li::after {
-        top: 24px;
-    }
-}
-@media screen and (max-width: 380px) { 
-    .process-model.more-icon-preocess li {
-        width: 16%;
-    }
-    .more-icon-preocess.process-model li span {
-        font-size: 16px;
-        height: 35px;
-        line-height: 32px;
-        width: 35px;
-    }
-    .more-icon-preocess.process-model li p {
-        font-size: 8px;
-    }
-    .more-icon-preocess.process-model li::after {
-        top: 18px;
-    }
-    .process-model.more-icon-preocess {
-        text-align: center;
-    }
-}
+
+
 
 
 /*Footer*/
@@ -446,6 +421,28 @@ footer{
 /* IPAD LANDSCSCAPE************/
 
 @media only screen and (max-width:1366px){
+    .body{
+        overflow-x:hidden;
+    }
+
+
+
+    .sct-2{
+        background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(Images/benifits.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+    .list-grid{
+        display:block;
+        text-align:center;
+        padding-top:-60px;
+    }
+
+    .sct-2-img{
+        display:none;
+    }
+    
     .open i{
         display:block;
     }
@@ -483,6 +480,20 @@ footer{
         max-width:80%;
     }
 
+    .sct-3-grid{
+        display:grid;
+        grid-template-columns: repeat(5,3fr);
+    }
+
+    .grid-items{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align: center;
+        font-family:var(--secondary-font);
+        letter-spacing:3px;
+        margin:0 5px 0 5px;
+    }
 
 
     /*HEADING*************************/
@@ -530,6 +541,18 @@ footer{
     .secondary-nav-wrapper{
         width:100%;
         border-radius:0;
+    }
+
+    .sct-3-grid{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .grid-items{
+        margin-top:40px;
+        margin-bottom:40px;
+
+        
     }
 
     .close{
@@ -608,7 +631,7 @@ footer{
 
         .sct-2{
             padding:20;
-            background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Images/funding.jpg);
+            background:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Images/benifits.jpg);
             background-size: cover;
             background-repeat:no-repeat;
             background-position: center;

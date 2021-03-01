@@ -51,11 +51,11 @@ body{
 .secondary-nav ul li a{
     color:var(--text);
     text-decoration:none;
-    font-size:1.1rem;
-    font-family:var(--main-font);
+    font-size:1rem;
+    font-family:var(--secondary-font);
     padding:0;
     line-height:5rem;
-    
+    width:100%;
 }
 .close{
     position:absolute;
