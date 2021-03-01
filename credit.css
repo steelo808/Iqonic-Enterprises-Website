@@ -310,6 +310,10 @@ height:100vh;
     height:auto;
 }
 
+.sct-4 .sct-title{
+    padding-top:20rem;
+}
+
 .sct-4-grid-wrapper{
     text-align:center;
     display:grid;
