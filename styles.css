@@ -51,11 +51,10 @@ body{
 .secondary-nav ul li a{
     color:var(--text);
     text-decoration:none;
-    font-size:1rem;
+    font-size:1.1rem;
     font-family:var(--secondary-font);
     padding:0;
     line-height:5rem;
-    width:100%;
 }
 .close{
     position:absolute;
@@ -564,6 +563,58 @@ footer{
 
 @media only screen and (max-width:1366px){
     .open i{
+        display:none;
+    }
+
+    .secondary-nav-wrapper .nav-btn{
+        display:none;
+    }
+    
+    .main-nav{
+        justify-content: space-between;
+    }
+
+    .logo img{
+        margin:0 80px 0 80px;
+    }
+
+    .open i{
+        margin:0 80px 0 80px;
+    }
+    
+    .main-nav ul{
+        display:block;
+    }
+
+    .nav-btn{
+        display:none;
+    }
+
+    .jumbotron .heading{
+        width:70%;
+    }
+
+    .heading-2{
+        display:block;
+        height: 40%;
+    }
+
+    /*NAVIGATION*********************/
+    .heading h1{
+        max-width:80%;
+    }
+
+
+
+    /*HEADING*************************/
+
+}
+
+/* ipad regular */
+
+@media only screen and (max-width:1024px){
+
+    .open i{
         display:block;
     }
 
@@ -591,25 +642,6 @@ footer{
         display:none;
     }
 
-    .heading-2{
-        display:none;
-    }
-
-    /*NAVIGATION*********************/
-    .heading h1{
-        max-width:80%;
-    }
-
-
-
-    /*HEADING*************************/
-
-}
-
-/* ipad regular */
-
-@media only screen and (max-width:1024px){
-
 .secondary-nav-wrapper{
     width:55%;
 }
@@ -617,6 +649,15 @@ footer{
 .heading{
     padding-left:30px;
 }
+
+.jumbotron .heading{
+    width:100%;
+}
+
+.heading-2{
+    display:none;
+}
+
 
 .sct-2-5{
     height:auto;
@@ -660,7 +701,7 @@ footer{
     }
 
     .secondary-nav ul li a {
-        font-size:1.5rem;
+        font-size:1.1rem;
         text-align:center;
     }
 
