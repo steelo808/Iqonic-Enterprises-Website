@@ -581,6 +581,10 @@ footer{
         width:100%;
         border-radius:0;
     }
+    
+    .sct-3{
+        overflow-x:hidden;
+    }
 
     .sct-3-grid{
         display:flex;

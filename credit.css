@@ -687,13 +687,12 @@ footer{
 
     .grid-wrapper-1{
         grid-template-columns:repeat(1, 4fr);
-        padding: 0 0 80px 0;
+        padding: 30px 0 80px 0;
     }
 
     .grid-wrapper-1 p{
         width:80%;
         margin:0 auto;
-        padding-bottom:50px;
     }
 
     .grid-item-2,
@@ -762,4 +761,17 @@ footer{
     }
 
     /* End of copy and paste ******/
+}
+
+@media only screen and (max-width:375px){
+
+body{
+    overflow-x: hidden;
+}
+.pricing{
+    padding-top:35rem;
+}
+
+
+
 }
