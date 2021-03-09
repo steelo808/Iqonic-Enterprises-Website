@@ -227,6 +227,8 @@ h1{
 .heading-2 .btn{
     position:absolute;
     top:12rem;
+    background-color: transparent;
+    border:1px solid var(--accent);
 }
 
 .heading h1{

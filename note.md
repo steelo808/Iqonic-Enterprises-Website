@@ -99,3 +99,5 @@ during the credit repair process we provide education to improve, maintain, and 
 
         Because of Iconic Enterprises I was pre approved for 30 to 40k in funding in just the first week!
 
+
+        Scheduling a consultion with Iqonic Enterprises  changed my life i am now in the 800 club because of the knowlege and insight i recived!

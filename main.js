@@ -18,11 +18,26 @@ const price2 = document.querySelector('.grid-item-2');
 
 const price3 = document.querySelector('.grid-item-3');
 
+//pricing slider
 const sliderItem1 = document.querySelector('.slider-item-1');
 const sliderItem2 = document.querySelector('.slider-item-2');
 const sliderItem3 = document.querySelector('.slider-item-3');
 
-//ressponsive navigation section
+
+//testimonal interactivity
+
+//testimonials 
+const testimonial1 = document.querySelector('.testimonial-1');
+const testimonial2 = document.querySelector('.testimonial-2');
+
+
+//images 
+const img1 = document.querySelector('.img-1');
+const img2 = document.querySelector('.img-2');
+
+//arrows
+const leftArrow = document.querySelector('.left-arrow');
+const rightArrow = document.querySelector('.right-arrow');
 
 open.addEventListener('click', () => {
     show.style.display = "block";
@@ -31,8 +46,6 @@ open.addEventListener('click', () => {
 close.addEventListener('click', ()=>{
     show.style.display = "none";
 });
-
-//end of responsive navigation section
 
 //start of slider for pricing section in  credit repair
 
@@ -62,3 +75,17 @@ premium.addEventListener('click', ()=>{
     sliderItem1.classList.remove('slider-item-active');
     sliderItem2.classList.remove('slider-item-active');
 });
+
+
+
+
+
+
+
+//responsive navigation section
+
+
+//end of responsive navigation section
+
+//start of slider for pricing section in  credit repair
+

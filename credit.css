@@ -237,9 +237,11 @@ height:100vh;
         margin-bottom:50px;
     }
     
+    
 
     .sct-3{
         height:auto;
+        padding-top:10rem;
     }
 
 .grid-wrapper-1{
@@ -330,6 +332,10 @@ height:100vh;
     margin:0 30px 0 30px;
 }
 
+.sct-4-grid-item .btn a{
+    color:var(--text);
+    text-decoration:none;
+}
 .header{
     height:50px;
     display:flex;

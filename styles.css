@@ -21,6 +21,10 @@ i{
     margin:0;
 }
 
+html{
+    overflow-x:hidden;
+}
+
 body{
     list-style: none;
     text-decoration:none;
@@ -481,6 +485,16 @@ grid-template-rows: repeat(5, 1fr);
     font-style:italic;
     line-height: 3rem;
 }
+
+.sct-3-5 .testimonial-2{
+    display:none;
+}
+
+.sct-3-5 .img-2{
+    display:none;
+}
+
+
 .sct-3-5 img{
     width:100px;
     height:100px;
